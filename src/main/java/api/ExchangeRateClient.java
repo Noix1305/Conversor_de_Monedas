@@ -29,7 +29,6 @@ public class ExchangeRateClient {
 
             if (response.statusCode() == 200) {
                 String responseBody = response.body();
-                System.out.println("Respuesta: " + responseBody);
                 conversionRates = procesarRespuesta(responseBody);
             }
             else {

@@ -21,9 +21,9 @@ public class Conversor {
             
             do {
                 System.out.println("\n--- Conversor de Monedas ---");
-                System.out.println("1. Realizar conversión de moneda");
+                System.out.println("1. Realizar conversion de moneda");
                 System.out.println("2. Salir");
-                System.out.print("Seleccione una opción: ");
+                System.out.print("Seleccione una opcion: ");
                 opcion = scanner.nextInt();
                 
                 switch (opcion) {
